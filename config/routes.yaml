@@ -1,0 +1,3 @@
+# app_test_controller:
+#   path: /test/my_controller
+#   controller: App\Controller\TestController::SayHello
