@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header, body, ul, div, p {
+    padding: 1%;
+}
+ul {
+    list-style: none;
+    width: max-content;
+}
+
+header {
+    background-color: rgba(70, 126, 68, 0.344);
+}
+header ul {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+body {
+    background-color: rgba(70, 126, 68, 0.344);
+}

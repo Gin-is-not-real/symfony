@@ -1,0 +1,17 @@
+{# templates/test/my_first_page.html.twig #}
+{% extends 'test/layout.html.twig' %}
+
+{% block title %}Blog Index{% endblock %}
+
+{% block page_contents %}
+    <p>HERE: templates/test/my_first_page.html.twig </p>
+
+    <ul>
+        <li><a href="{{ path('app_test_sayhello') }}">say hello via my first page</a></li>
+        <li><a href="{{ path('app_test_saybonjour') }}">say bonjour via my first page</a></li>
+    </ul>
+
+    <div>
+        <input id="test-btn" type="button" value="click me">
+    </div>
+{% endblock %}
